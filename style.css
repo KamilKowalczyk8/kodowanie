@@ -3,12 +3,10 @@ i{
     padding-top:3.5px;
 }    
 k{
-   
     padding-top:3px;
     padding-right:7px;
 }    
 body{
-    overflow-y: hidden;
     margin:0px;
     font-family: 'Kaushan Script', cursive;
 }
@@ -22,13 +20,21 @@ body{
 }
 #jeden{
     width: 100%;
-
 display:flex;
 flex-grow: 3;
 }
 p{
     color:white;
     font-size:42px;
+}
+r{
+    color:black;
+    font-size:42px;
+}
+y{
+    color:black;
+    font-size:42px;
+
 }
 span{
     color:#ff6781;
@@ -58,8 +64,7 @@ span{
     padding-top: 12px;
     padding-left:9px;
     margin-right:120px;
-    margin-top:7px;
-   
+    margin-top:7px; 
 }
 #h10{
     height:20px;
@@ -75,7 +80,6 @@ span{
     top:350px;
     left: 730px;
     font-size:50px;
-    
 }
 #glowny{
 display:flex;
@@ -89,9 +93,39 @@ a{
 }
 a:hover {
     color:black;
+}
+
+#przycisk:hover {
+    color:#ff6781;
+    border:2px solid #ff6781;
   
 }
-#przycisk:hover {
+#przycisk3:hover{
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#przycisk2:hover{
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#przycisk4:hover{
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#przycisk5:hover{
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#przycisk6:hover{
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#przycisk1:hover {
     color:#ff6781;
     border:2px solid #ff6781;
   
@@ -102,9 +136,13 @@ a:hover {
     background: linear-gradient(to bottom, rgb(239, 240, 236) 0%,rgba(255, 230, 0, 0.842) 100%);
     opacity: 50%;
 }
+#obra img{
+    position: absolute;
+    height:450px;
+    width:590px;
+}
 #przycisk{
     position: absolute;
-    
     width: 7vw;         
     height: 5vh;  
     left: 46.5vw;    
@@ -114,4 +152,131 @@ a:hover {
       border-radius: 2px;         
       font-size: 25px;
       font-family: 'Kaushan Script', cursive;
+}
+#przycisk1{
+    position: absolute;
+    width: 130px;         
+    height: 45px;  
+    left: 0px;    
+    top: 250px;         
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk1{
+    position: absolute;
+    width: 130px;         
+    height: 45px;  
+    left: 0px;    
+    top: 250px;         
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk2{
+    position: absolute;
+    width: 65px;         
+    height: 45px;  
+    left: 570px;    
+    top: 1770px;       
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk3{
+    position: absolute;
+    width: 100px;         
+    height: 45px;  
+    left: 670px;    
+    top: 1770px;         
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk4{
+    position: absolute;
+    width: 150px;         
+    height: 45px;  
+    left: 800px;    
+    top: 1770px;        
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk5{
+    position: absolute;
+    width: 130px;         
+    height: 45px;  
+    left: 980px;    
+    top: 1770px;        
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#przycisk6{
+    position: absolute;
+    width: 160px;         
+    height: 45px;  
+    left: 1140px;    
+    top: 1770px;        
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
+#gd{
+    background-color: white;
+    width:100%;
+    height: 65%;
+   
+}
+#dd{
+    background-color:#E8E8E8;
+    width:100%;
+    height: 35%;
+    display:flex;
+    justify-content: center;
+
+}
+#lewy{
+    position:absolute;
+    top: 1100px;
+    left: 420px;
+    color:grey;
+}
+#prawy{
+   position:absolute;
+   top:1100px;
+   left:1050px;
+   height: 500px;
+   width: 500px;
+}
+#obr{
+    position: absolute;
+    top:-60px;
+    left: -80px;
+    border:9px solid #e3af34;
+    height: 460px;
+   width: 600px;
+}
+#obra{
+    position: absolute;
+}
+#lol{
+    position: absolute;
+top:1840;
+left:640px;
 }
